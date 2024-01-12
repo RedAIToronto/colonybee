@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  src: url('/fonts/impact.ttf');
+}
+
+@font-face {
+  font-family: 'phosphate';
+  src: url('/fonts/PhosphateRRSolid.ttf');
+}
+
+@font-face {
+  font-family: 'anybody';
+  src: url('/fonts/Anybody-Medium.ttf');
+}
+
+* {
+  font-family: "Impact";
+}
+
+.hexagon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.connect-btn {
+  position: absolute;
+  background: linear-gradient(237.68deg, #FAE57A 16.21%, #FFDC8A 65.85%);
+  border: 4.39676px solid #FAE57A;
+  box-shadow: -6.59514px 8.79352px 35.1741px rgba(0, 0, 0, 0.12), inset 7.69433px 7.69433px 28.5789px rgba(204, 152, 9, 0.7);
+}
+
+/* .temporary-bounce {
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 1 !important; 
+} */
+
+.responsive-container {}
+
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.none {
+  display: none !important;
+}
+
+.block {
+  display: block !important;
+}
+
+.flex {
+  display: flex !important;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.logo-spin {
+  animation: spin 5s linear infinite;
+}
+
+.about-title {
+  font-family: 'phosphate';
+  font-size: 50px;
+}
+
+.about-p {
+  font-family: 'anybody' !important;
+  text-align: center;
+  padding: 8px;
+  font-size: 2.2vh;
+}
+
+
+@media (min-width: 768px) {
+  .about-title {
+    font-size: 70px;
+  }
+
+  .about-p {
+    padding: 15px;
+    font-size: 23px;
+  }
+
+
+}
+
+@media (min-width: 1024px) {
+  .about-title {
+    font-size: 80px;
+  }
+
+  .about-p {
+    padding: 15px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-title {
+    font-size: 83px;
+  }
+
+  .about-p {
+    padding: 15px;
+    font-size: 31px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .about-title {
+    font-size: 88px;
+  }
+
+  .about-p {
+    padding: 30px 330px;
+    font-size: 35px;
+  }
+}
+
+.mint-title {
+  font-family: 'phosphate' !important;
+}
+
+/* 
+.gallery {
+  transform: rotate(30deg);
+
+} */
+
+
+/* Welcome to The Colony - the future of decentralized work! We're revolutionizing collaboration with our cutting-edge platform, built on the Ethereum network. Here, productivity, trust, and fairness thrive, supported by an innovative token system and an adaptable governance structure. Discover The Colony, where a sustainable, trust-based work environment awaits. Earn community tokens while uncovering an array of exhilarating tasks and rewards that ensure our ecosystem's growth. Join us at The Colony as we redefine the Web3 space and beyond! Get ready to embark on a thrilling journey of collaboration and prosperity, and unlock the groundbreaking features that lie ahead. The revolution starts now! */
